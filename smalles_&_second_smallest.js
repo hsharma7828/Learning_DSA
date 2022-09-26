@@ -45,7 +45,7 @@ function find_number(arr, n) {
             s_small_number = arr[i];
     }
     let result = {
-        small_number: arr[0],
+        small_number: small_number,
         s_small_number: s_small_number
     }
     return result
